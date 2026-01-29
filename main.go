@@ -353,7 +353,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 </head>
 <body>
     <div class="container">
-        <h1>🔒 Go Secure Web Server</h1>
+        <h1>🔒 Go XXXDSecure Web Server</h1>
         <p class="subtitle">Production-ready security with stdlib only</p>
         
         <div class="security-badge">
@@ -462,4 +462,5 @@ func main() {
 		log.Fatalf("[FATAL] Server error: %v", err)
 	}
 }
+
 
